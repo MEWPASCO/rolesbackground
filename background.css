@@ -1,3 +1,13 @@
+/**
+ * @name RolesBackground
+ * @author Wolfÿ
+ * @version 1.0.0
+ * @description Gives Roles on a Userprofile some different design
+ * @invite avia
+ * @source https://github.com/MEWPASCO/rainbowglow-avatars
+ * @website https://www.avariaxyz.win/
+ */
+
 :root {
   --opacity-role-design: 50%;
 }
