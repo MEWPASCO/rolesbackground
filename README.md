@@ -2,7 +2,7 @@
 
 [![Discord](https://img.shields.io/discord/1196075698301968455?style=social&logo=discord&label=ΛVΛRIΛ)](https://discord.gg/avia)
 
-# Roles Border
+# Roles Background
 
 Gives Roles on a Userprofile a background to the box, effectively making the colors & roles "more" distinct from each other
 
@@ -28,3 +28,15 @@ Paste this into your QuickCSS (Or any non-Vencord equivalent) to make it a littl
 ```
 
 Alternatively if your client does not support online themes you can download the theme file found in this repository and put it into your theme folder.
+
+# Configuration
+
+Put this into your QuickCSS (Or any non-Vencord equivalent) to configure some behavior of this theme:
+> [!NOTE]
+> Values over 50% make it progressively harder to read the text!
+```css
+/* RolesBackground */
+:root {
+  --opacity-role-design: 50!important;
+}
+```
