@@ -1,4 +1,7 @@
-/* Role Border */
+:root {
+  --opacity-role-design: 50%;
+}
+
 /* Target the role elements and apply styles */
 .role_dfa8b6{
   transform: translate(0);
@@ -30,7 +33,7 @@
   border-radius: 5px;
   box-sizing: border-box;
   background: inherit;
-  opacity: var(--transparency) !important;
+  opacity: var(--opacity-role-design) !important;
   z-index: -1 !important;
 }
 
