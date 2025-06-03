@@ -1,7 +1,7 @@
 /**
  * @name RolesBackground
  * @author Wolfÿ
- * @version 1.0.0
+ * @version 1.0.1-Alpha
  * @description Gives Roles on a Userprofile some different design
  * @invite avia
  * @source https://github.com/MEWPASCO/rainbowglow-avatars
@@ -9,45 +9,43 @@
  */
 
 :root {
-  --opacity-role-design: 50%;
+  --opacity-role-design: 0.5; /* Use decimal (1 = 100%) for better compatibility */
 }
 
-/* Target the role elements and apply styles */
-.role_dfa8b6{
-  transform: translate(0);
-  border: 0;
-  border-radius: 5px !important;
-  --transparency: 0.4; /* You may want to adjust the transparency value */
+/* === Base Role Pill === */
+.role_dfa8b6 {
+  transform: none;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: visible;
 }
 
-/* Target the roleRemoveIcon and adjust its positioning */
+/* === Remove Icon === */
 .role_dfa8b6 .roleRemoveIcon_dfa8b6 {
   left: 12px;
   transform: translate(-50%, -50%);
   margin: 0;
 }
 
-/* Reset the positioning of roleRemoveButton */
+/* === Reset Remove Button Position === */
 .role_dfa8b6 .roleRemoveButton_dfa8b6 {
   position: static;
 }
 
-/* Target the roleCircle element and apply additional styles */
-.role_dfa8b6 .roleCircle__4f569:before {
+/* === Background Styling Layer === */
+.role_dfa8b6 .roleCircle__4f569::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
+  background: inherit;
   border-radius: 5px;
   box-sizing: border-box;
-  background: inherit;
-  opacity: var(--opacity-role-design) !important;
-  z-index: -1 !important;
+  opacity: var(--opacity-role-design);
+  pointer-events: none;
 }
 
-/* Fix the text being too blurry */
+/* === Text Contrast Fix === */
 .roleNameOverflow_27401 {
   color: hsl(0, 0%, 75%);
 }
