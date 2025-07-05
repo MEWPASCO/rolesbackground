@@ -19,6 +19,7 @@
   border-radius: 5px;
   position: relative;
   overflow: visible;
+  padding: 8px;
 }
 
 /* === Remove Icon === */
