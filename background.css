@@ -24,7 +24,7 @@
 
 /* === Remove Icon === */
 .role_dfa8b6 .roleRemoveIcon_dfa8b6 {
-  left: 12px;
+  left: 18px;
   transform: translate(-50%, -50%);
   margin: 0;
 }
@@ -48,5 +48,32 @@
 
 /* === Text Contrast Fix === */
 .roleNameOverflow_27401 {
+  color: hsl(0, 0%, 75%);
+}
+
+/* === Base Roll Pill inside Adding Role Menu === */
+.item__97e86 {
+  transform: none;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  overflow: visible;
+  padding: 8px;
+}
+
+/* === Decorative Border Layer Using Pseudo === */
+.item__97e86 ::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  border-radius: 5px;
+  box-sizing: border-box;
+  opacity: var(--opacity-role-design);
+  pointer-events: none;
+}
+
+/* === Text Contrast Fix === */
+.itemLabel__97e86 {
   color: hsl(0, 0%, 75%);
 }
