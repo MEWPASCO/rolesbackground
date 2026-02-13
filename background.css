@@ -13,7 +13,7 @@
 }
 
 /* === Base Role Pill === */
-.dfa8b6b94cddb191-role {
+.role_dfa8b6 {
   transform: none;
   border: none;
   border-radius: 5px;
@@ -23,19 +23,19 @@
 }
 
 /* === Remove Icon === */
-.dfa8b6b94cddb191-role .dfa8b6b94cddb191-roleRemoveIcon {
+.role_dfa8b6 .roleRemoveIcon_dfa8b6 {
   left: 18px;
   transform: translate(-50%, -50%);
   margin: 0;
 }
 
 /* === Reset Remove Button Position === */
-.dfa8b6b94cddb191-role .dfa8b6b94cddb191-roleRemoveButton {
+.role_dfa8b6 .roleRemoveButton_dfa8b6 {
   position: static;
 }
 
 /* === Background Styling Layer === */
-.dfa8b6b94cddb191-role ._4f569b8941af22d1-roleCircle::before {
+.role_dfa8b6 .roleCircle__4f569::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -52,7 +52,7 @@
 }
 
 /* === Base Roll Pill inside Adding Role Menu === */
-._97e869e420e80b14-item {
+.item__97e86 {
   transform: none;
   border: none;
   border-radius: 5px;
@@ -62,7 +62,7 @@
 }
 
 /* === Decorative Border Layer Using Pseudo === */
-._97e869e420e80b14-item ::before {
+.item__97e86 ::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -74,6 +74,6 @@
 }
 
 /* === Text Contrast Fix === */
-._97e869e420e80b14-itemLabel {
+.itemLabel__97e86 {
   color: hsl(0, 0%, 75%);
 }
