@@ -1,7 +1,7 @@
 /**
  * @name RolesBackground
  * @author Wolfÿ
- * @version 1.0.1-Alpha
+ * @version 1.1
  * @description Gives Roles on a Userprofile some different design
  * @invite avia
  * @source https://github.com/MEWPASCO/rainbowglow-avatars
@@ -13,29 +13,29 @@
 }
 
 /* === Base Role Pill === */
-.role_dfa8b6 {
+.role_af3987 {
   transform: none;
   border: none;
   border-radius: 5px;
   position: relative;
   overflow: visible;
-  padding: 8px;
+  padding: 2px 6px;
 }
 
 /* === Remove Icon === */
-.role_dfa8b6 .roleRemoveIcon_dfa8b6 {
+.role_af3987 .roleRemoveIcon_af3987 {
   left: 18px;
   transform: translate(-50%, -50%);
   margin: 0;
 }
 
 /* === Reset Remove Button Position === */
-.role_dfa8b6 .roleRemoveButton_dfa8b6 {
+.role_af3987 .roleRemoveButton_af3987 {
   position: static;
 }
 
 /* === Background Styling Layer === */
-.role_dfa8b6 .roleCircle__4f569::before {
+.role_af3987 .roleCircle__4f569::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -47,22 +47,25 @@
 }
 
 /* === Text Contrast Fix === */
-.roleNameOverflow_27401 {
-  color: hsl(0, 0%, 75%);
+.roleName_af3987 {
+  color: hsl(0, 0%, 95%) !important;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* === Base Roll Pill inside Adding Role Menu === */
-.item__97e86 {
+.listBoxItemContent__2e223 {
   transform: none;
   border: none;
   border-radius: 5px;
   position: relative;
   overflow: visible;
-  padding: 8px;
+  padding: 2px 6px;
 }
 
 /* === Decorative Border Layer Using Pseudo === */
-.item__97e86 ::before {
+.listBoxItemContent__2e223 ::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -71,9 +74,4 @@
   box-sizing: border-box;
   opacity: var(--opacity-role-design);
   pointer-events: none;
-}
-
-/* === Text Contrast Fix === */
-.itemLabel__97e86 {
-  color: hsl(0, 0%, 75%);
 }
