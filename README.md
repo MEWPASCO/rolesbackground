@@ -8,7 +8,7 @@ Come hang out in our community for support, **Destiny 2** guides, archives, and 
 
 # Roles Background
 
-Gives Roles on a Userprofile a background and a border to the box, effectively making the colors & roles "more" distinct from each other
+Gives Roles on a Userprofile a background to the box, effectively making the colors & roles "more" distinct from each other
 
 ### Example
 ![image](https://github.com/user-attachments/assets/c3b43d8a-76fa-4284-82c8-602b8b03cb75)
